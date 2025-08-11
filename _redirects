@@ -1,0 +1,7 @@
+# 301 permanent redirect: /netlify/anything -> Google search (browser URL will change)
+# :splat expands the rest of the path (URL-encoded)
+ /netlify/*  https://www.google.com/search?q=:splat  301
+
+# Proxy (forward without changing browser URL). Note: Google may block embedding / CORS.
+# Using 200! forces proxying. This will fetch content server-side from Netlify and return it.
+ /netlify/*  https://www.google.com/search?q=:splat  200!

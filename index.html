@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Netlify Website — Stephen Ocampo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Netlify Website — Stephen Ocampo</h1>
+    <p>Simple HTML/CSS/JS site for Thrive Technologies.</p>
+  </header>
+
+  <main>
+    <section id="how-made">
+      <h2>How I made the site & tool choices</h2>
+      <p id="how-made-text"></p>
+    </section>
+
+    <section id="challenge">
+      <h2>One challenge and how I solved it</h2>
+      <p id="challenge-text"></p>
+    </section>
+
+    <section id="service-feedback">
+      <h2>Service feedback</h2>
+      <p id="service-feedback-text"></p>
+    </section>
+
+    <section id="rankings">
+      <h2>Top 5 favorite & 5 least favorite activities</h2>
+      <div id="favorites"></div>
+      <div id="least-favs"></div>
+    </section>
+
+    <section id="dev-doc">
+      <h2>Great technical documentation link</h2>
+      <p id="dev-doc-text"></p>
+    </section>
+
+    <section id="dns-challenges">
+      <h2>Two major DNS challenges for non-technical customers</h2>
+      <div id="dns-text"></div>
+    </section>
+
+    <section id="troubleshoot">
+      <h2>Build error troubleshooting & first customer reply</h2>
+      <h3>Troubleshooting steps</h3>
+      <pre id="troubleshoot-steps"></pre>
+      <h3>Customer-facing first response</h3>
+      <pre id="customer-reply"></pre>
+    </section>
+
+    <section id="redirects">
+      <h2>Redirect examples</h2>
+      <h3>301 redirect (rule)</h3>
+      <pre>/netlify/* https://www.google.com/search?q=:splat 301</pre>
+      <h3>Proxy rule (forward without changing browser URL)</h3>
+      <pre>/netlify/* https://www.google.com/search?q=:splat 200!</pre>
+      <p><em>Notes:</em> Proxying external sites can hit CORS, X-Frame-Options, and Google may block embedding. See the README for details.</p>
+    </section>
+
+    <section id="function">
+      <h2>Netlify Function test</h2>
+      <p>Try this function URL after deploy: <code>/ .netlify/functions/hello</code></p>
+      <button id="call-fn">Call function</button>
+      <pre id="fn-result"></pre>
+    </section>
+
+    <footer>
+      <p>Created for the job exercise. Contact: [your-email-or-github]</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
