@@ -50,7 +50,7 @@ document.getElementById('troubleshoot-steps').innerText =
 9. If all else fails, escalate to engineering with logs, timestamp, and the full environment details.`;
 
 document.getElementById('customer-reply').innerText =
-`Hi [Customer name],
+`Good day,
 
 Thanks for reporting this — I’m sorry your site failed to build. I can see a “Build script returned non-zero exit code: 2” in the logs. That usually means a script the build ran exited with an error.
 
@@ -60,10 +60,19 @@ Could you please send:
 • The build command shown in Site settings
 • The build log lines around the first error (if possible)
 
-If you prefer, you can try running the build locally with the same build command and share the output. I’ll review the logs as soon as you send them and suggest next steps. Thanks for the details — we’ll get this fixed.
+If you prefer, you can try running the build locally with the same build command and share the output. I’ll review the logs as soon as you send them and suggest next steps. 
+Thanks for the details — we’ll get this fixed.
 
 Best,
-[Your Name] — Support Engineer`;
+Stephen Ocampo — Support Engineer`;
+
+document.getElementById('report-text').innerText =
+`1. Thank the reporter and confirm receipt of their message.
+2. Review the details provided, try to reproduce the issue in a controlled environment without risking production data.
+3. Notify the internal security team immediately to verify and assess the scope of the potential vulnerability.
+4. Let the reporter know: "We take security very seriously. Our team is actively investigating this issue and we will keep you updated. We appreciate your responsible disclosure."
+5. If the issue seems severe, involve senior leadership and, if needed, temporarily limit exposure while a fix is developed.
+6. After confirmation and resolution, inform the reporter and thank them, possibly crediting them in a security disclosure if appropriate.`;
 
 document.getElementById('fn-result').innerText = 'Not called yet';
 document.getElementById('call-fn').addEventListener('click', async () => {
