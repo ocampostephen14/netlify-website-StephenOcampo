@@ -16,7 +16,7 @@ document.getElementById('favorites').innerHTML =
 <li>Work with the development team to help design a new feature based on feedback from customers</li>
 <li>Submit bug reports and potentially bug fixes</li>
 <li>Debug a customer's build using a programming language and framework that you've never seen before</li>
-<li>Submit bug reports and potentially bug fixes</li>
+<li>Write and maintain Support Guides for our product</li>
 <li>Dig through server logs to troubleshoot a customer's website behavior</li>
 </ol>`;
 
