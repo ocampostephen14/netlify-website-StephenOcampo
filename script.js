@@ -5,8 +5,7 @@ I chose plain HTML for easy structure, CSS for styling and a small JS file for t
 
 document.getElementById('challenge-text').innerText =
 `One challenge that I faced it that I have a hard time on answering the question below about using Netlify functions in this website and DNS configurations because it is not my expertise.
-I solved it by also watching a YouTube video that helps me create a button and a JS function for Netlify that displays "Hello, world" and "timestamps". As for the DNS configs, I researched 
-about the challenges that someone faced when they are working with DNS servers.`;
+I solved it by also watching a YouTube video that helps me create a button and a JS function for Netlify that displays "Hello, world" and "timestamps". As for the DNS configs, I researched about the challenges that someone faced when they are working with DNS servers.`;
 
 document.getElementById('service-feedback-text').innerText =
 `Netlify has a user-friendly interface that helps you connect your GitHub account and your repositories. For me, it is easy to use rather than installing a CLI for local deployment.`;
