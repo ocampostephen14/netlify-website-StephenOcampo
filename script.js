@@ -4,8 +4,9 @@ document.getElementById('how-made-text').innerText =
 I chose plain HTML for easy structure, CSS for styling and a small JS file for the contents and interactivity.`;
 
 document.getElementById('challenge-text').innerText =
-`One challenge that I faced it the importing my codes to my GitHub repository because its been a long time since I used GitHub for our thesis project. I solved it my watching a YouTube
-tutorial on how to clone it and copy the files into my repository in GitHub.`;
+`One challenge that I faced it that I have a hard time on answering the question below about using Netlify functions in this website and DNS configurations because it is not my expertise.
+I solved it by also watching a YouTube video that helps me create a button and a JS function for Netlify that displays "Hello, world" and "timestamps". As for the DNS configs, I researched 
+about the challenges that someone faced when they are working with DNS servers.`;
 
 document.getElementById('service-feedback-text').innerText =
 `Netlify has a user-friendly interface that helps you connect your GitHub account and your repositories. For me, it is easy to use rather than installing a CLI for local deployment.`;
@@ -31,19 +32,19 @@ document.getElementById('least-favs').innerHTML =
 </ol>`;
 
 document.getElementById('dev-doc-text').innerText =
-`Example: Stripe API docs (https://stripe.com/docs). Why: clear getting-started sections, live examples, well-organized reference, versioned changelogs, and interactive examples.`;
+`After researching in Google, I picked Stripe API docs (https://stripe.com/docs). It is clear getting-started sections, live examples, well-organized reference, and interactive examples.`;
 
 document.getElementById('dns-text').innerText =
-`1) Confusing terminology: Users often confuse nameservers vs. A/AAAA/CNAME records. They expect to add a CNAME but the domain requires editing nameservers; this causes downtime. Solution: provide simple “copy/paste” instructions per registrar and verification steps.
+`1) Confusing terminology: People often mix up "nameservers" and "records", which can break their site. A quick solution for this is to give clear steps and a quick way to check if it's correct.
 
-2) Propagation and TTL expectations: Non-technical customers expect changes to be instant but TTL and caching cause delay. Solution: explain in plain terms, suggest low TTL before big changes and show a verification/checklist page after change.`;
+2) Changes takes time: Domain updates are not instant because of the caching. It should explain the delay and giving a checklist to confirm.`;
 
 document.getElementById('troubleshoot-steps').innerText =
-`1. Ask the user for the site name (Netlify site id or URL) and the exact time they noticed the failure.
+`1. Ask the user for the site name and the exact time they noticed the failure.
 2. Inspect the build logs line-by-line; look for the first error message and the stack trace.
 3. If logs show a non-zero exit code only, check common causes: missing build dependencies, failing install (node_modules), incorrect Node/Python version, failing test command, or incorrect build command.
-4. Request minimal additional info: branch name, commit hash, and environment variables (redact secrets).
-5. Ask the user to enable verbose/diagnostic logging or run the same build locally using the same Node version and build command (if they can).
+4. Request minimal additional info: branch name, commit hash, and environment variables.
+5. Ask the user to enable diagnostic logging or run the same build locally using the same Node version and build command.
 6. If repository is private and user cannot share, ask them to run a local build and paste the first failing lines.
 7. If build fails during install step, request the build log section that shows package install output.
 8. If it is a dependency/fetch issue, suggest clearing caches or pinning package versions.
@@ -52,7 +53,8 @@ document.getElementById('troubleshoot-steps').innerText =
 document.getElementById('customer-reply').innerText =
 `Good day,
 
-Thanks for reporting this — I’m sorry your site failed to build. I can see a “Build script returned non-zero exit code: 2” in the logs. That usually means a script the build ran exited with an error.
+Thanks for reporting this — I’m sorry your site failed to build. I can see a “Build script returned non-zero exit code: 2” in the logs. 
+That usually means a script the build ran exited with an error.
 
 Could you please send:
 • The Netlify site name or URL
