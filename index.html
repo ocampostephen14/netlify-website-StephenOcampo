@@ -14,38 +14,41 @@
 
   <main>
     <section id="how-made">
-      <h2>How I made the site & tool choices</h2>
+      <h2>Talk about how you made your site and why you chose the tools you did.</h2>
       <p id="how-made-text"></p>
     </section>
 
     <section id="challenge">
-      <h2>One challenge and how I solved it</h2>
+      <h2>Briefly explain one challenge you experienced in setting up this site and how you overcame it.</h2>
       <p id="challenge-text"></p>
     </section>
 
     <section id="service-feedback">
-      <h2>Service feedback</h2>
+      <h2>What did you think of our service during the time you used it? Provide some constructive criticism or some features that impressed you.</h2>
       <p id="service-feedback-text"></p>
     </section>
 
     <section id="rankings">
-      <h2>Top 5 favorite & 5 least favorite activities</h2>
+      <h2>Rank your 5 favorite and 5 least favorite activities from this list: https://gist.github.com/laurajodz/592402a6336410377dee1a744af846ab</h2>
       <div id="favorites"></div>
       <div id="least-favs"></div>
     </section>
 
     <section id="dev-doc">
-      <h2>Great technical documentation link</h2>
+      <h2>Provide a link to documentation for a technical/developer-focused product, which you think are well done, and explain why you think they are well done.</h2>
       <p id="dev-doc-text"></p>
     </section>
 
     <section id="dns-challenges">
-      <h2>Two major DNS challenges for non-technical customers</h2>
+      <h2>Explain, in a couple of paragraphs, what you think are two major challenges around DNS configuration for less-technical customers hosting websites.</h2>
       <div id="dns-text"></div>
     </section>
 
     <section id="troubleshoot">
-      <h2>Build error troubleshooting & first customer reply</h2>
+      <h2>A customer writes in to Support saying simply that their “site won’t build”. 
+        You have access to their build logs, and there you see this error: Build failed due to a user error: Build script returned non-zero exit code: 
+        You have no more information than this and the site’s source repository is private so you cannot test the build yourself. 
+        How would you troubleshoot this issue? What steps would you take? Also, please compose your best customer-facing first response.</h2>
       <h3>Troubleshooting steps</h3>
       <pre id="troubleshoot-steps"></pre>
       <h3>Customer-facing first response</h3>
@@ -53,7 +56,8 @@
     </section>
 
     <section id="redirects">
-      <h2>Redirect examples</h2>
+      <h2>How would you set up an http 301 status redirect from “/netlify/anything” on your site, to https://www.google.com/search?q=anything. 
+        Please provide the redirect formatting here. Now, how about a proxy redirect? Please add that proxy redirect rule directly to your site!</h2>
       <h3>301 redirect (rule)</h3>
       <pre>/netlify/* https://www.google.com/search?q=:splat 301</pre>
       <h3>Proxy rule (forward without changing browser URL)</h3>
@@ -62,14 +66,25 @@
     </section>
 
     <section id="function">
-      <h2>Netlify Function test</h2>
+      <h2>Please attempt to deploy a function on our service. This need not be complicated. It could be "Hello World". 
+        Note that failure to deploy is not failing the exercise! Whether you have trouble or not, 
+        please describe what you experienced and how you attempted to troubleshoot any issues you encountered.</h2>
       <p>Try this function URL after deploy: <code>/ .netlify/functions/hello</code></p>
       <button id="call-fn">Call function</button>
       <pre id="fn-result"></pre>
     </section>
 
+    <section id="report">
+      <h2>We understand you don't know anything about our internal procedures at this stage, but we want you to explain at a high level how you'd react to this situation: 
+        You receive a report of a severe security issue on www.netlify.com. You can't immediately confirm the report, so what steps might you take to investigate or substantiate the report? 
+        What might you say to the reporter, even though we haven't confirmed their assertion yet, that will instill confidence that our business is very concerned about security? 
+        You believe there is a reasonable chance the report is correct and the problem is very large and impactful. How might you escalate?</h2>
+      <h3>Report steps</h3>
+      <pre id="report-steps"></pre>
+    </section>
+
     <footer>
-      <p>Created for the job exercise. Contact: [your-email-or-github]</p>
+      <p>Created for the job exercise. Contact: oocampo.stephen14@gmail.com</p>
     </footer>
   </main>
 

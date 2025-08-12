@@ -1,34 +1,33 @@
 // Fill in the content for each section (ready-to-publish answers)
 document.getElementById('how-made-text').innerText =
 `I built this site as a plain static HTML/CSS/JS project so it is simple to review and deploy.
-I chose: plain HTML for easy structure, CSS for styling and a small JS file for interactivity.
-Netlify is ideal because it can publish a static site directly from a public GitHub repo and supports serverless functions easily.`;
+I chose plain HTML for easy structure, CSS for styling and a small JS file for the contents and interactivity.`;
 
 document.getElementById('challenge-text').innerText =
-`One challenge: deploying a serverless function without a build process. I solved it by placing the function in netlify/functions and verifying the file name and exports match Netlify's expectations.`;
+`One challenge that I faced it the importing my codes to my GitHub repository because its been a long time since I used GitHub for our thesis project. I solved it my watching a YouTube
+tutorial on how to clone it and copy the files into my repository in GitHub.`;
 
 document.getElementById('service-feedback-text').innerText =
-`Positive: quick deployments and a pleasant dashboard experience.
-Constructive: clearer error messaging in build logs (more granular line/filename references) would help debugging faster. Also a “retry build with same settings but verbose logging” button would be nice.`;
+`Netlify has a user-friendly interface that helps you connect your GitHub account and your repositories. For me, it is easy to use rather than installing a CLI for local deployment.`;
 
 document.getElementById('favorites').innerHTML =
 `<strong>Top 5 favorite activities:</strong>
 <ol>
-<li>Design systems</li>
-<li>Accessibility auditing</li>
-<li>Performance optimization</li>
-<li>Continuous deployment setup</li>
-<li>Writing developer docs</li>
+<li>Work with the development team to help design a new feature based on feedback from customers</li>
+<li>Submit bug reports and potentially bug fixes</li>
+<li>Debug a customer's build using a programming language and framework that you've never seen before</li>
+<li>Submit bug reports and potentially bug fixes</li>
+<li>Dig through server logs to troubleshoot a customer's website behavior</li>
 </ol>`;
 
 document.getElementById('least-favs').innerHTML =
 `<strong>Top 5 least favorite activities:</strong>
 <ol>
-<li>Manual cross-browser CSS hacks</li>
-<li>Legacy browser polyfills</li>
-<li>Complex FTP-based deploys</li>
-<li>Configuring obscure DNS records by hand</li>
-<li>Fixing build failures with no logs</li>
+<li>Engage multiple users at once via chat to answer their questions and troubleshoot problems</li>
+<li>Set up your own copy of several site frameworks for debugging</li>
+<li>Help train and onboard new support teammates</li>
+<li>Create video tutorials to help teach users a specific feature or use case</li>
+<li>Respond to Netlify customers on Twitter</li>
 </ol>`;
 
 document.getElementById('dev-doc-text').innerText =
