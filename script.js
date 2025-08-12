@@ -66,7 +66,7 @@ If you prefer, you can try running the build locally with the same build command
 Thanks for the details — we’ll get this fixed.
 
 Best,
-Stephen Ocampo — Support Engineer`;
+Stephen Ocampo`;
 
 document.getElementById('report-text').innerText =
 `1. Thank the reporter and confirm receipt of their message.
